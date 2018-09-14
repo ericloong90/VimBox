@@ -53,5 +53,11 @@ if filereadable(expand("~/.vim/gvimrc.custom.after"))
   source ~/.vim/gvimrc.custom.after
 endif
 
+set guifont=Fira\ Code:h16
+set cursorline
+set macligatures
+
 set visualbell
 set t_vb=
+
+set number

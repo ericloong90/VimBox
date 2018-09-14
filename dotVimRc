@@ -139,7 +139,7 @@ set scs
 
 " TODO: Set up mappings to toggle between text mode and code mode.
 " Editing code
-set nowrap
+set wrap
 set wrapmargin=0
 " let &textwidth=exists('g:textColumns') && !empty(g:textColumns) ? g:textColumns : 80
 set nolinebreak
