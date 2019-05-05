@@ -78,4 +78,4 @@ augroup END
 
 syntax enable
 set background=dark
-colorscheme one
+colorscheme panda

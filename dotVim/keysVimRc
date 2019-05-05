@@ -466,3 +466,5 @@ vmap ' S'
 " vmap " S"
 " vmap * S*
 vmap ` S`
+
+imap <Enter> <Cr>
