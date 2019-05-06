@@ -384,14 +384,14 @@ let g:expand_region_text_objects = {
 
 
 " ================================== Smooth-Scroll =================================
-Plug 'terryma/vim-smooth-scroll'
+" Plug 'terryma/vim-smooth-scroll'
 "Normal mode
-noremap <silent> <c-u> :call smooth_scroll#up(40, 20, 6)<CR>
-noremap <silent> <c-d> :call smooth_scroll#down(40, 20, 6)<CR>
+" noremap <silent> <c-u> :call smooth_scroll#up(40, 5, 6)<CR>
+" noremap <silent> <c-d> :call smooth_scroll#down(40, 5, 6)<CR>
 
 " smooth_scroll is broken in visual mode currently - unmap
-vnoremap <silent> <c-u> <c-u>
-vnoremap <silent> <c-d> <c-d>
+" vnoremap <silent> <c-u> <c-u>
+" vnoremap <silent> <c-d> <c-d>
 " ==============================================================================
 
 
@@ -534,4 +534,14 @@ Plug 'markvincze/panda-vim', {'as': 'panda'}
 
 Plug 'mattn/emmet-vim'
 
+" ==============================================================================
+
+" ============================== Emmet Vim =====================================
+
+Plug 'shime/vim-livedown'
+nnoremap <C-p> :LivedownToggle<CR>
+let g:livedown_autorun = 0
+let g:livedown_open = 1
+let g:livedown_port = 1337
+let g:livedown_browser = "safari"
 " ==============================================================================
