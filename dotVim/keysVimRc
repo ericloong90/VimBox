@@ -468,3 +468,8 @@ vmap ' S'
 vmap ` S`
 
 imap <Enter> <Cr>
+
+" Remapping j and k to properly traverse lines according to the visually
+" rendered buffer
+nnoremap j gj
+nnoremap k gk
